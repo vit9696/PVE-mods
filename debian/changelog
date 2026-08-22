@@ -1,3 +1,20 @@
+pve-mod (1.0.7) stable; urgency=low
+
+  * 8d70194 fix(nag_screen): Patch typo (#318)
+  * 2a122ef feat(node_info) Add configurable minimum-temperature ignore threshold (#316)
+  * 0476410 fix(node_info): re-show sensor widgets when data becomes valid again after being hidden (#312)
+  * 972c9ae fix(node_info): reap zombie pve_mod_worker and orphaned collector processes (#307)
+  * 69e2d78 feat(node_info): UPS widget: redesign status panel with battery-charge progress bar (#310)
+  * bdb3f9f fix(node_info): normalize UPS data — derive ups.realpower fallback and clean invalid battery.mfr.date (#309)
+  * c768eac fix(nag_screen): Fix nag screen patch webui line offsets (#315)
+  * 8a9b756 fix(node_info): hide GPU Details and GPU Fans when no GPU is present (#311)
+  * f754331 fix(node_info): fix stale worker lock detection for zombie processes (#306)
+  * e46734c fix(node_info): return average and core temps for intel (#302)
+  * cee8d04 feat/fix(node_info): expose temp_unit in graphics API response & fix temperature conversion (#295)
+  * 8ebc2b4 feat(node_info): add GPU utilization display with color-coded thresholds for NVIDIA GPUs (#296)
+
+ -- github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>  Sat, 22 Aug 2026 23:24:00 +0000
+
 pve-mod (1.0.6) stable; urgency=low
 
   * c21b973 remove buildtest file (#288)
